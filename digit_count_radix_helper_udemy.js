@@ -6,5 +6,5 @@ digitCount(num) returns the number of digits in num.
 */
 
 const digitCount = (num) => {
-  
+  return num.toString().length;
 }
